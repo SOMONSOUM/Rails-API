@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email on created:</strong>
+  <%= @notification.email_on_created %>
+</p>
+
+<p>
+  <strong>Eamil on delivery:</strong>
+  <%= @notification.eamil_on_delivery %>
+</p>
+
+<p>
+  <strong>Email of invoice:</strong>
+  <%= @notification.email_of_invoice %>
+</p>
+
+<%= link_to 'Edit', edit_notification_path(@notification) %> |
+<%= link_to 'Back', notifications_path %>

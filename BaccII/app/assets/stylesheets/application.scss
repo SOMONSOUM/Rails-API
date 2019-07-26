@@ -1,0 +1,19 @@
+// External libraries and Vendors
+@import "bootstrap.min";
+@import "themify-icons";
+@import "feathericon";
+@import "ionicons";
+@import "metisMenu";
+@import "slicknav.min";
+@import "morris-bundle/morris";
+@import "font-awesome";
+@import "jquery.fancybox";
+
+// Graphical variables
+@import "config/fonts";
+// @import "config/colors";
+@import "config/bootstrap";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";

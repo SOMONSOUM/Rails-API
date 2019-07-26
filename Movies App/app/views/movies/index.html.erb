@@ -1,0 +1,29 @@
+<!--<div class="text-center">
+  <h1 class="text-primary"><%= pluralize(@movies.size, 'Movie') %></h1>
+
+  <ul>
+    <% @movies.each do |movie| %>
+    <li><%= movie %></li>
+    <% end %>
+  </ul>
+</div>-->
+
+<div class="mt-4">
+<h1 class="text-primary text-center"><%= pluralize(@movies.size, 'Movie') %></h1>
+  <div class="row">
+    <% @movies.each do |movie| %>
+      <div class="col-md-4">
+        <div class="card">
+          <%= image_tag "https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/credit/hub/prepaid-image.png", class: "card-img-top" %>
+          <div class="card-body">
+            <h5 class="card-title text-center">
+              <%= movie %>
+            </h5>
+            <h6 class="card-subtitle text-muted text-center font-weight-bold mb-2">Lorem ipsum dolor sit amet.</h6>
+            <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fugiat labore cupiditate quod quos, sit perferendis reiciendis blanditiis consectetur odit!</p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,2 @@
+class HubbiesController < ApplicationController
+end

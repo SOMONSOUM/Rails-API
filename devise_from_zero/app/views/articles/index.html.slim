@@ -1,0 +1,7 @@
+h1.text-center All articles
+ul
+  - @articles.each do |article|
+    li = article.name
+    p = article.author
+    p = article.published_at.strftime('%b %d, %Y')
+  end

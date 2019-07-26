@@ -1,0 +1,8 @@
+<%=link_to 'lands', lands_path%>
+<%=link_to 'category', categories_path%>
+
+<ul>
+  <%@lands.each do |land|%>
+  <li><%=land%></li>
+  <%end%>
+</ul>

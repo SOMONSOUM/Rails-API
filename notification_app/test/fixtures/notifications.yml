@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email_on_created: false
+  eamil_on_delivery: false
+  email_of_invoice: false
+
+two:
+  email_on_created: false
+  eamil_on_delivery: false
+  email_of_invoice: false

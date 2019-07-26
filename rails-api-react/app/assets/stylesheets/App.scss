@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Kantumruy:300,400,700|Quicksand:300,400,500,700');
+@import url('https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #77747733;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Kantumruy', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-weight__bold {
+    font-weight: bold;
+}
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.about {
+    padding-top: 5rem;
+}
+
+.footer {
+    left: 0;
+    top: 0;
+    height: 3.5rem;
+    background: #55047a;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 0.1rem;  
+}

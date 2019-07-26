@@ -1,0 +1,20 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+p, ol, ul, td {
+    font-family: 'Kantumruy', sans-serif !important;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+p, ol, ul, td span{
+    font-weight: normal !important;
+}
+
+.modal-footer {
+    .btn-primary {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+}

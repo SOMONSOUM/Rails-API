@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+<div class="infinite-table">
+
+<h1>Listing posts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Body</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody id="my-posts">
+    <%= render :partial => 'post', :object => @posts %>
+  </tbody>
+</table>
+
+<div id="infinite-scrolling">
+  <%= paginate @posts %>
+</div>
+
+</div>

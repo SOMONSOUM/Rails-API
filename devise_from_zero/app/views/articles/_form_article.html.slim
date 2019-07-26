@@ -1,0 +1,9 @@
+= simple_form_for @article, defaults: { input_html: { class: 'form' } } do |f|
+  .form-group
+    = f.input :name, class: "form-control"
+  .form-group
+    = f.input :author, class: "form-control"
+  .form-group
+    = f.input :content, class: "form-control", as: :text, rows: "3"
+  = f.button :submit, class: "btn btn-primary"
+end

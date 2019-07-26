@@ -1,0 +1,21 @@
+<%= simple_form_for(@article) do |f| %>
+  <%= f.error_notification %>
+  <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
+
+  <div class="form-group">
+    <%= f.file_field :header_image , class: 'form-control'%>
+  </div>
+  <div class="form-group">
+    <%= f.input :title, class: "form-control" %>    
+  </div>
+  <div class="form-group">
+    <%= f.input :body, as: :summernote, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.file_field :images, multiple: true, class: "form-control" %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, class: "btn btn-primary" %>
+  </div>
+<% end %>
